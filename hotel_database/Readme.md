@@ -12,30 +12,30 @@ rooms.
 1. C (Using NTU Automated Processing Assessment System)
 
 ### Structure
-1. roomID – It stores the room identification number
-2. status – It stores a marker that indicates whether the room is assigned or not (i.e.,EMPTY or TAKEN)
-3. customerName – It stores the name of the customer who occupies the room
+#### roomID – It stores the room identification number
+#### status – It stores a marker that indicates whether the room is assigned or not (i.e.,EMPTY or TAKEN)
+#### customerName – It stores the name of the customer who occupies the room
 
 ### Functions
-1. listOccupiedRooms() - – The function prints the list of room assignments in hotel
+#### listOccupiedRooms() - – The function prints the list of room assignments in hotel
 - The function prints the following message when it is executed: "listOccupiedRooms():"
 - If the hotel is empty, i.e., no room is occupied, the function should display the message:"The hotel is empty"
 
-2. assignRoom() – The function assigns a customer to a room. It reads in the selected room number (roomID) and customer name from user, and then assigns the room accordingly
+#### assignRoom() – The function assigns a customer to a room. It reads in the selected room number (roomID) and customer name from user, and then assigns the room accordingly
 - The function prints the following message when it is executed: "assignRoom():" 
 - After assigning a room suceessfully, the function should display the message: "The room has been assigned successfully "
 - If the hotel is full (i.e. MAX) during room assignment, the function should display the message: "The hotel is full"
 - If the selected room has been assigned to another customer already, the function should display the message: "Occupied! Enter another roomID"
 - If the selected room number is not between 1 and MAX (i.e., 5), the function should display the  message: "Enter a roomID between 1 and 5".  The function should continue to read a room number from the user
 
-3. removeRoom() – The function removes a room assignment. It reads in the selected room number (i.e. roomID) from user and then remove the assigned room accordingly
+#### removeRoom() – The function removes a room assignment. It reads in the selected room number (i.e. roomID) from user and then remove the assigned room accordingly
 - The function prints the following message when it is executed: "removeRoom():"
 - After room removal, the function should display the message: "Removal is successful"
 - After room removal, the function should display the message: "Removal is successful"
 - If the selected room is empty, the function should display the message: "Empty! Enter another roomID for removal"
 - If the selected room number is not between 1 and 5 (i.e., MAX), the function should display the message: "Enter a roomID between 1 and 5"
 
-4. findCustomer() – The function finds the target customer name from the Room records stored in hotel, and prints the target room information to the screen
+#### findCustomer() – The function finds the target customer name from the Room records stored in hotel, and prints the target room information to the screen
 - The function prints the following message when it is executed: "findCustomer():"
 - The function finds the first appearance of the target customer name in the array structure (i.e. according to roomID), and prints the corresponding target customer information to the screen
 - The target string matching should be done irregardless of the letter cases (upper case letter and lower case letter will be treated to be the same)
