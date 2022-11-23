@@ -1,4 +1,7 @@
 // declaration
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 
 #define MAX 5 // maximum number of rooms
 
