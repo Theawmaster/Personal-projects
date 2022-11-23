@@ -1,3 +1,3 @@
 # Sample Test Case
 
-| ## Input                | ## Output                                       |
+| Input                | Output                                       |
